@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans {
+    font-family: "Fira Sans", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 0 200px;
+    background-color: #F1F1F3;
+}
+
+main {
+    padding: 0 200px;
+    background-color: #F1F1F3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0e0e0e;
+}
+
+.navbar .btn {
+    border: 1px solid #006a50;
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    color: #006a50;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 80px 100px 80px 100px;
+    background: #c6e4d6;
+}
+
+.left .banner-subtitle {
+    color: #0e0e0e80;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 16px 0px;
+}
+
+.left .banner-title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+}
+
+.left .btn {
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: #006a50;
+    margin: 24px 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pillars-container {
+    padding: 80px 0;
+}
+
+.pillars-container .title {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 32px 0px;
+}
+
+.pillars {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pillars .pillar {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 24px 0;
+    background: rgb(255, 255, 255);
+}
+
+.pillar-title {
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px 0px;
+}
+
+.pillar-description {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0px;
+}
+
+.vision-title {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+.vision-des {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0;
+    line-height: 24px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.cards .card1 {
+    background: #5490f533;
+    padding: 32px;
+    border-radius: 16px;
+    margin: 24px 0;
+}
+
+.cards .card2 {
+    background: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+    margin: 24px 0;
+}
+
+.cards .card3 {
+    background: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+    margin: 24px 0;
+}
+
+.cards h2 {
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+
+.cards p {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+
+.cards .btn {
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 24px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card1 .btn{
+    background: #5490f5;
+}
+
+.card2 .btn{
+    background: #09a15c;
+}
+
+.card3 .btn{
+    background: #ffc239;
+}
+
+.cards img{
+    margin: 13px 0;
+}
+

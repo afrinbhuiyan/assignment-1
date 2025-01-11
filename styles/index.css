@@ -39,6 +39,7 @@ main {
     color: #006a50;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .navbar .btn:hover {
@@ -79,6 +80,7 @@ main {
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .left .btn:hover {
@@ -191,6 +193,7 @@ main {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .card1 .btn {
@@ -389,6 +392,7 @@ main {
     font-size: 18px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 .news-card-box .btn:hover {
@@ -429,6 +433,7 @@ main {
     border: 1px solid #0e0e0e26;
     border-radius: 16px;
     padding: 40px;
+    cursor: pointer;
 }
 
 .background{
@@ -489,6 +494,7 @@ main {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .donate button:hover {

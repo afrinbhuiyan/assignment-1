@@ -41,6 +41,11 @@ main {
     font-weight: 600;
 }
 
+.navbar .btn:hover {
+    background-color: #006a50;
+    color: white;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -188,12 +193,22 @@ main {
     background: #5490f5;
 }
 
+.card1 .btn:hover {
+    background: #3779ec;
+}
+
 .card2 .btn {
     background: #09a15c;
+}
+.card2 .btn:hover {
+    background: #0d8f54;
 }
 
 .card3 .btn {
     background: #ffc239;
+}
+.card3 .btn:hover {
+    background: #f5b623;
 }
 
 .cards img {
@@ -372,6 +387,10 @@ main {
     border: none;
 }
 
+.news-card-box .btn:hover {
+    background: rgb(3, 78, 59);
+}
+
 .donate {
     margin-top: 80px;
 }
@@ -408,9 +427,14 @@ main {
     padding: 40px;
 }
 
-.donation-options div:hover {
-    background: #c6e4d6;
+.background{
+    background-color: #c6e4d6 ;
 }
+
+.donation-options div:hover {
+    background: #aee2ca;
+}
+
 
 .donation-options h2 {
     color: rgba(14, 14, 14, 0.8);
@@ -463,6 +487,10 @@ main {
     font-weight: 600;
 }
 
+.donate button:hover {
+    background: rgb(2, 88, 67);
+}
+
 .newsletter-form {
     display: flex;
     justify-content: center;
@@ -500,6 +528,10 @@ main {
     border: none;
 }
 
+.subscribe-button:hover {
+    background: rgb(2, 88, 67);
+}
+
 .newsletter-section {
     display: flex;
     flex-direction: column;
@@ -535,4 +567,26 @@ main {
     font-weight: 400;
     line-height: 19px;
     text-align: center;
+}
+
+footer {
+    margin: 50px 160px;
+}
+
+footer h1 {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin: 16px 0px;
+    padding: 32px 0px;
+    border-bottom: 1px solid #0e0e0e1a;
+}
+
+.contact {
+    display: flex;
+    gap: 23px;
+    margin: 32px 0px;
+    justify-content: center;
 }

@@ -81,6 +81,10 @@ main {
     font-weight: 600;
 }
 
+.left .btn:hover {
+    background: #01503c;
+}
+
 .pillars-container {
     padding: 80px 0;
 }

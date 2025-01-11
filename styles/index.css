@@ -184,19 +184,56 @@ main {
     font-weight: 600;
 }
 
-.card1 .btn{
+.card1 .btn {
     background: #5490f5;
 }
 
-.card2 .btn{
+.card2 .btn {
     background: #09a15c;
 }
 
-.card3 .btn{
+.card3 .btn {
     background: #ffc239;
 }
 
-.cards img{
+.cards img {
     margin: 13px 0;
 }
 
+.adviser-container {
+    border-radius: 16px;
+    padding: 48px 24px 48px 24px;
+    border: 1px solid #0e0e0e26;
+    background-color: #ffffff;
+    margin-top: 24px;
+}
+
+.adviser {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.description {
+    padding-top: 25px;
+    color: #0e0e0ecc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0px;
+}
+
+.adviser-name {
+    margin: 4px 0px;
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.adviser-title {
+    color: #0e0e0e99;
+    margin: 4px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}

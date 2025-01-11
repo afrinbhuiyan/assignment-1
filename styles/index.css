@@ -237,3 +237,70 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+
+.opinion-container .title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 100px 0 24px;
+}
+
+.questions-and-opinion-title {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    padding: 24px;
+}
+
+.questions-and-opinion-title h4 {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.questions-and-opinion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions-and-opinion p {
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border: 1px solid #0e0e0e26;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 24px;
+    width: 1197px;
+    border-top: none;
+}
+
+.questions-and-opinion button {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid #0e0e0e;
+    border-radius: 4px;
+    background: #09a15c26;
+    padding: 10px 14px 10px 14px;
+}
+
+.questions-and-opinion div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0e0e0e26;
+    border-top: none;
+    border-left: none;
+    padding: 15px;
+    width: 242px;
+}
+
+.opinion-content {
+    background: rgb(255, 255, 255);
+    padding: 32px;
+    border-radius: 16px;
+}
